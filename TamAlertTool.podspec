@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
     s.authors       = {'Tam' => '1558842407@qq.com'}
     s.platform      =  :ios,'8.0'
     s.source        = {:git => 'https://github.com/thatha123/TamSystemAlertTool.git',:tag => s.version}
-    s.source_files =  'TamAlertTool/**/*.{h,m}'
-    s.resource      = 'TamAlertTool/*'
-    s.requires_arc =  true
+    s.source_files  =  'TamSystemAlertTool/TamAlertTool/*.{h,m}'
+    s.requires_arc  =  true
 end
